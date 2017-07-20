@@ -1,0 +1,18 @@
+
+
+<div class="">
+
+
+<button ng-click="addSingle(words)" type="button" class="btn btn-default" id="W">Words</button>
+<button ng-click="addMulti(words)" type="button" class="btn btn-default" id="MW">More Words</button>
+<button ng-click="addDec(words)" type="button" class="btn btn-default" id="WD">Words with Decorations</button>
+<button ng-click="decMulti(words)" type="button" class="btn btn-default" id="MWD">More Words with Decorations</button>
+
+<div>
+
+<span ng-repeat="word in words" class='{{ word.class }}'> {{ word.word }} </span>
+
+</div>
+
+
+</div>

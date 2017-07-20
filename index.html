@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myModule" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Routing</title>
+  </head>
+  <body ng-controller="routeCtrl">
+
+
+    <a href="#!/words">Words</a>
+    <form class="bookForm" >
+      <input type="radio" name="book" ng-model="change.value" value='0'> Where the Wild Things Are
+      <input type="radio" name="book" ng-model="change.value" value='1' clicked>Everybody Poops
+
+    </form>
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js" type="text/javascript"></script>
+    <script src="https://code.angularjs.org/1.6.5/angular-route.js" charset="utf-8"></script>
+    <script src="js/module.js" charset="utf-8"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+    <script src="js/config.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Kranky|Life+Savers|Nosifer|Reenie+Beanie" rel="stylesheet">
+  </body>
+</html>

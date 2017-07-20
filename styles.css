@@ -1,0 +1,75 @@
+.c1 {
+  display: inline-block;
+  -webkit-animation: 4s linear 0s 1 alternate move_eye;
+          animation: 4s linear 0s 1 alternate move_eye;
+}
+@-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
+
+.c2 {
+  font-size: 5vw;
+  font-family: 'Codystar', cursive;
+}
+
+.c3 {
+  display: inline-block;
+  width: 5%;
+  -webkit-animation: spin 4s linear 0s 2 alternate;
+  -moz-animation: spin 4s linear 0s 2 alternate;
+          animation: spin 4s linear 0s 2 alternate;
+}
+@-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); } }
+   @-moz-keyframes spin { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(360deg); } }
+        @keyframes spin { from {transform:rotate(0deg);} to {transform:rotate(360deg);} }
+
+.c4 {
+  opacity: .5;
+  font-size: 25px;
+}
+
+.c5 {
+  filter: blur(3px);
+  font-size: 2vw;
+  color: brown;
+}
+.c5:hover {
+  filter: blur(0);
+  font-family: 'Kranky', cursive;
+}
+
+.c6 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2.5vw;
+}
+.c7 {
+  font-weight: bolder;
+  color: cyan;
+
+}
+.c8 {
+  font-family: 'Life Savers', cursive;
+  font-size: 6vw;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+.c9 {
+  transform: translate(-5px) rotate(180deg);
+}
+.c10 {
+  text-decoration: underline;
+}
+
+.poop{
+  font-family: 'Nosifer', cursive;
+  font-size: 5vw;
+  filter: blur(10px);
+  color: brown;
+}
+.poop:hover {
+  filter: blur(0);
+}
+
+/*.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10  {
+
+}*/
